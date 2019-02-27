@@ -1,8 +1,7 @@
 const defaultState = {
-  user: 'CamperBot',
+  user: 'Bot',
   status: 'offline',
   friends: '732,982',
-  community: 'freeCodeCamp'
 };
 
 const immutableReducer = (state = defaultState, action) => {
